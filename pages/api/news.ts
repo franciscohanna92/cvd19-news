@@ -22,7 +22,6 @@ export default async (req: Request, res: Response) => {
 
   const { country } = req.query;
 
-  console.log('Making News API call')
   const { data } = await axios.get('https://newsapi.org/v2/top-headlines', {
     params: {
       q: 'coronavirus',

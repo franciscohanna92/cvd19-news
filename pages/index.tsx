@@ -246,7 +246,7 @@ class Home extends Component<any, any> {
 
           <footer className='py-3 text-muted'>
             <hr />
-            <p>Contribute to the project at <a href='https://newsapi.org'>Github</a></p>
+            <p>Contribute to the project at <a href='https://github.com/franciscohanna92/cvd19-news'>Github</a></p>
             <p>Powered by <a href='https://newsapi.org'>News API</a></p>
           </footer>
         </div>
